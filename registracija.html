@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registracija | MegaTech</title>
+    <link rel="stylesheet" href="CSS/stilZaStranicuZaRegistaciju.css">
+    <script src="JavaScript/registracija.js"></script>
+</head>
+<body>
+    <div class = "pozicijaNavigationBara">
+        <ul class = "navigationBar">
+            <button id = "dugmeZaPadajuciMeni" onclick = "otvoriIZatvoriPadajuciMeni()">▼</button>
+            <div id = "linkovi">
+                <li id = "linkoviNaNavigationBaru">
+                    <a href = "index.html" class = "pozicijaHomeDugmeta" id = "levaStrana">Home</a>
+                </li>
+                <li id = "linkoviNaNavigationBaru">
+                    <a href = "ONama.html" id = "levaStrana">O nama</a>
+                </li>   
+                <li id = "linkoviNaNavigationBaru">
+                    <a href = "prijava.html" id = "desnaStrana">Prijava</a>
+                </li>
+                <li id = "linkoviNaNavigationBaru">
+                    <a href = "registracija.html" id = "desnaStrana">Registracija</a>
+                </li>
+            </div>
+        </ul>
+    </div>
+    <div class="box">
+        <h1 id="naslov">Registracija</h1>
+        <div class="formica">
+            <form >
+                <div class="red">
+                    <div class="kolona">
+                        <label for="ime">Ime:</label>
+                        <input class="pozicijaInputa" type="text" id="ime" placeholder="Vaše ime ovde" >
+                    </div>
+                    <div class="kolona">
+                        <label for="prezime">Prezime:</label>
+                        <input class="pozicijaInputa" type="text" id="prezime" placeholder="Vaše prezime ovde">
+                    </div>
+                </div>
+                <div class="red">
+                    <div class="kolona">
+                        <label for="sifra">Šifra:</label>
+                        <input class="pozicijaInputa" type="password" id="sifra" placeholder="Vašu šifru ovde">
+                    </div>
+                    <div class="kolona">
+                        <label for="resifra">Ponovite šifru:</label>
+                        <input class="pozicijaInputa" type="password" id="resifra" placeholder="Vašu re-šifru ovde">
+                    </div>
+                </div>
+                <div class="red">
+                    <div class="kolona">
+                        <label for="email">E-mail:</label>
+                        <input class="pozicijaInputa" type="email" id="email" placeholder="Vaš e-mail ovde">
+                    </div>
+                    <div class="kolona">
+                        <label class="rd" for="ch">Pol:</label>
+                        <div class="kolona">
+                            <input class="rd" type="radio" name="muski" id="muski" value="muski">
+                            <label for="muski">Muški</label>
+                            <input  class="rd" type="radio" name="muski" id="zenski" value="zenski">
+                            <label for="zenksi">Ženski</label>
+                            <input class="rd" type="radio" name="muski" id="ns" value="muski">
+                            <label for="ns">Ne želim se izjasniti</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="red">
+                    <div class="kolona">
+                        <label for="drzava">Izaberite Državu:</label>
+                        <select name="drzava" id="drzava">
+                            <option value="">--Vaša opcija za drzavu je:--</option>
+                            <option value="srbija">Srbija</option>
+                            <option value="crnagora">Crna Gora</option>
+                            <option value="makedonija">Makedonija</option>
+                        </select>
+                    </div>
+                    <div class="kolona">
+                        <label for="klijent">Izaberite tip kupovine:</label>
+                        <select name="klijent" id="klijent">
+                            <option value="">--Vaša opcija za kupovinu je:--</option>
+                            <option value="fizckolice">Lična kupovina</option>
+                            <option value="kupacnamalo">Kupovina na malo</option>
+                            <option value="kupacnaveliko">Kupovin na veliko</option>
+                        </select>
+                    </div>
+                </div>
+                <button id="dugmence" onclick="funkcija()">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

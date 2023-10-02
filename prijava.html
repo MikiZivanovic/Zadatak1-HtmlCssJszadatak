@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prijava | MegaTech</title>
+    <link rel="stylesheet" href="CSS/stilZaStranicuZaPrijavljivanje.css">
+    <script src="JavaScript/prijava.js"></script>
+</head>
+<body>
+    <div class = "pozicijaNavigationBara">
+        <ul class = "navigationBar">
+            <button id = "dugmeZaPadajuciMeni" onclick = "otvoriIZatvoriPadajuciMeni()">▼</button>
+            <div id = "linkovi">
+                <li id = "linkoviNaNavigationBaru">
+                    <a href = "index.html" class = "pozicijaHomeDugmeta" id = "levaStrana">Home</a>
+                </li>
+                <li id = "linkoviNaNavigationBaru">
+                    <a href = "ONama.html" id = "levaStrana">O nama</a>
+                </li>   
+                <li id = "linkoviNaNavigationBaru">
+                    <a href = "prijava.html" id = "desnaStrana">Prijava</a>
+                </li>
+            </div>
+        </ul>
+    </div>
+    <div class = "box">
+        <h1 id = "naslov">Prijavite se:</h1>
+        <div class = "formica">
+            <form >
+                <div class = "poljeZaUnos">
+                    <label for = "ime">Ime:</label>
+                    <input type = "text" id = "ime" placeholder = "Vaše ime ovde">
+                </div>
+                <div class = "poljeZaUnos">
+                    <label for = "sifra">Šifra:</label>
+                    <input type = "password" id = "sifra" placeholder = "Vaš e-mejl ovde">
+                </div>
+                <button id="dugmeZaPrijavljivanje" onclick="funkcija()">Log in</button>
+                <p id = "linkKaRegistraciji">
+                   <a href = "registracija.html">Nemate nalog? Registrujte se</a> 
+                </p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Pro Zen Goliath | MegaTech</title>
+    <link rel="stylesheet" href="CSS/stilZaStraniceProizvoda.css">
+    <script src="JavaScript/script.js"></script>
+</head>
+<body>
+    <div class = "pozicijaNavigationBara">
+        <ul class = "navigationBar">
+            <button id = "dugmeZaPadajuciMeni" onclick = "otvoriIZatvoriPadajuciMeni()">▼</button>
+            <div id = "linkovi">
+                <li id = "linkoviNaNavigationBaru">
+                    <a href = "index.html" class = "pozicijaHomeDugmeta" id = "levaStrana">Home</a>
+                </li>
+                <li id = "linkoviNaNavigationBaru">
+                    <a href = "ONama.html" id = "levaStrana">O nama</a>
+                </li>   
+                <li id = "linkoviNaNavigationBaru">
+                    <a href = "prijava.html" id = "desnaStrana">Prijava</a>
+                </li>
+                <li id = "linkoviNaNavigationBaru">
+                    <a href = "registracija.html" id = "desnaStrana">Registracija</a>
+                </li>
+            </div>
+        </ul>
+        <p class = "trakaZaPorudzbine" id = "brojPorudzbina"></p>
+        <p class = "trakaZaPorudzbine" id = datumPorudzbine></p>
+    </div>
+    <div class = "mreza">
+        <div class = "slikaINaslov">
+            <h1>Prime Pro Zen Goliath</h1>
+            <img src="Slike/Desktop/Prime Pro Zen Goliath.png" alt="Prime Pro Zen Goliath" id = "slika">
+        </div>
+        <div class = "specifikacije">
+            <h2>Specifikacije:</h2>
+            <ul>
+                <li>
+                    Procesor: AMD Ryzen 5<br> 
+                </li>
+                <li>
+                    HDD/SSD: 500GB SSD<br> 
+                </li>
+                <li>
+                    Grafička karta: GeForce RTX 2060<br>
+                </li>
+                <li>
+                    Opis matične ploče:	GIGABYTE B550M DS3H (rev. 1.x)<br>
+                </li>
+                <li>
+                    RAM memorija: 16GB DDR4 3200MHz<br>
+                </li>
+                <li>
+                    Operativni sistem: FreeDOS<br>
+                </li>
+                <li>
+                    Napajanje:	700W<br>
+                </li>
+            </ul>
+            <br>
+            <p id = "cena">
+                Cena: 99.999RSD
+            </p>
+            <br>
+            <button id = "dugmeZaPorucivanje" onclick = "proslediPorudzbinu()">Poruči</button>
+            <button id = "dugmeZaPorucivanje" onclick = "otkaziPorudzbinu()">Otkaži porudžbinu</button>
+        </div>
+    </div>
+</body>
+</html>

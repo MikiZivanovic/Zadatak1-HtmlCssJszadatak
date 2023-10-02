@@ -1,0 +1,129 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(
+        135deg,
+        #112D4E,
+        #4c46f5
+    );
+}
+.pozicijaNavigationBara{
+    position: sticky;
+    top: 0;
+}
+.navigationBar{
+    background-color: #232931;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+
+#dugmeZaPadajuciMeni{
+    display: none;
+}
+#linkoviNaNavigationBaru{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif, serif;
+}
+#linkoviNaNavigationBaru a{
+    /* display: block; */
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#linkoviNaNavigationBaru :hover{
+    background-color: #3F72AF;
+}
+#levaStrana{
+    float: left;
+}
+#desnaStrana{
+    float: right;
+}
+.box{
+    background-color: #eceef3;
+    ;
+    width: 70%;
+    padding: 35px;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10px;
+    min-width: 200px;
+    max-width: 15%;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif, serif;
+}
+#naslov{
+    font-size: 30px;
+    text-align: center;
+    color: #1c093c;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+.formica{
+    position: relative;
+    margin: 45px auto 0 auto;  
+}
+label{
+    color: #1c093c;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.poljeZaUnos{
+    display: grid;
+    margin-bottom: 20px;        
+}
+#dugmeZaPrijavljivanje{
+    position: relative;
+    left: 24%;
+    padding: 10px 30px;
+    background: linear-gradient(
+        130deg,
+        #112D4E,
+        #2620bb
+    );
+    color: #ffffff;
+    border: white;
+    border-radius: 3px;
+}
+#linkKaRegistraciji{
+    text-align: center;
+    margin-top: 10px;
+}
+@media screen and (max-width: 600px) {
+    #dugmeZaPadajuciMeni{
+        display: block;
+        float: left;
+        padding: 10px 16px;
+        background-color: #232931;
+        color: white;
+        border: none;
+    }
+    #linkoviNaNavigationBaru {
+        overflow: hidden;
+        background-color: #232931;
+        position: relative;
+    }
+    #levaStrana {
+        float: none;
+        text-align: center;
+    }
+    #desnaStrana{
+        float: none;
+        text-align: center;
+    }
+    .pozicijaHomeDugmeta{
+        width: 76%;
+    }
+    #linkovi {
+        display: none;
+    }
+    #linkoviNaNavigationBaru a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+}

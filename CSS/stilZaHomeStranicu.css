@@ -1,0 +1,189 @@
+body{
+    margin: 0;
+    background-color: #DBE2EF;
+}
+.pozicijaNavigationBara{
+    position: sticky;
+    top: 0;
+}
+.pozicijatrakaZaPorudzbine{
+    top: 50px;
+    position: sticky;
+}
+.trakaZaPorudzbine{
+    background-color: rgba(171, 170, 170, 0.437);
+    color: white;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.navigationBar{
+    background-color: #232931;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#dugmeZaPadajuciMeni{
+    display: none;
+}
+#pozicijaDugmetaZaMeniZaFiltriranje{
+    float: left;
+    padding: 12px 16px;
+}
+#pozicijaDugmetaZaMeniZaFiltriranje :hover{
+    background-color: #3F72AF;
+}
+#dugmeZaMeniZaFiltriranje{
+    background-color: #232931;
+    color: white;
+    border: none;
+}
+#linkoviNaNavigationBaru{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif, serif;
+}
+#linkoviNaNavigationBaru a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#linkoviNaNavigationBaru :hover{
+    background-color: #3F72AF;
+}
+#levaStrana{
+    float: left;
+}
+#desnaStrana{
+    float: right;
+}
+.meni{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: inherit;
+    left: 0;
+    background-color: #393E46;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+#dugmeZaZatvaranje{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-left: 50px;
+    background-color: #3F72AF; /*izmeni*/
+    color: white; /*izmeni*/
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+#opcijeZaFiltriranje{
+    background-color: rgb(100, 100, 100); /*izmeni*/
+    color: white; /*izmeni*/
+    border: none;
+    padding: 14px;
+    margin: 5% 0;
+    font-size: 16px; /*izmeni*/
+    cursor: pointer;
+    width: inherit;
+    border-spacing: 50px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif, serif;
+}
+#dugmeZaOtkazivanjePorudzbine{
+    background-color: #3F72AF; /*izmeni*/
+    color: white; /*izmeni*/
+    border: none;
+    padding: 14px;
+    margin: 5% 0;
+    font-size: 16px; /*izmeni*/
+    cursor: pointer;
+    width: inherit;
+    border-spacing: 50px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif, serif;
+}
+#pomeranjeProzora{
+    transition: margin-left 0.5s; /*pomeranje stranice*/
+}
+.mreza{
+    width: 95%;
+    margin: 3vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 40px 30px;
+}
+.element{
+    display: grid;
+    background-color: rgb(240, 238, 238); /*izmeni*/
+    border: 1px solid black; /*izmeni*/
+    border-radius: 25px;
+    place-items: center;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif, serif;
+    font-style: normal;
+    font-weight: 300;
+}
+.specifikacije{
+    padding-right: 1vw;
+}
+#ikonice {
+    height: auto;
+    max-width: 50%;
+}
+#dugmeZaPorucivanje{
+    background-color: #3F72AF; /*izmeni*/
+    color: white; /*izmeni*/
+    border: none;
+    border-radius: 15px;
+    padding: 16px 30px;
+    font-size: 16px; /*izmeni*/
+    cursor: pointer;
+    margin-bottom: 1vh;
+    width: 60%;
+    
+}
+@media screen and (max-width: 600px) {
+    #dugmeZaPadajuciMeni{
+        display: block;
+        float: left;
+        padding: 10px 16px;
+        background-color: #232931;
+        color: white;
+        border: none;
+        height: 50px;
+    }
+    #linkoviNaNavigationBaru {
+        overflow: hidden;
+        background-color: #232931;
+        position: relative;
+    }
+    #levaStrana {
+        float: none;
+        text-align: center;
+    }
+    #desnaStrana{
+        float: none;
+        text-align: center;
+    }
+    #pozicijaDugmetaZaMeniZaFiltriranje{
+        float: right;
+        text-align: center;
+    }
+    #linkovi {
+        display: none;
+    }
+    #linkoviNaNavigationBaru a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    .pozicijatrakaZaPorudzbine{
+        top: 50px;
+        position: sticky;
+    }
+}

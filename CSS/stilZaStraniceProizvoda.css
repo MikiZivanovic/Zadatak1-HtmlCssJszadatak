@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    background-color: #DBE2EF;
+}
+ 
+h1{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif, serif;
+}
+
+.pozicijaNavigationBara{
+    position: sticky;
+    top: 0;
+}
+.navigationBar{
+    background-color: #232931;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif, serif;
+}
+
+#dugmeZaPadajuciMeni{
+    display: none;
+}
+
+#linkoviNaNavigationBaru{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif, serif;
+}
+
+#linkoviNaNavigationBaru a{
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#linkoviNaNavigationBaru :hover{
+    background-color: #3F72AF;
+}
+#levaStrana{
+    float: left;
+}
+#desnaStrana{
+    float: right;
+}
+.trakaZaPorudzbine{
+    background-color: rgba(171, 170, 170, 0.437);
+    color: white;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.mreza{
+    display: flex;
+    background-color: #DBE2EF; /*izmeni*/
+}
+.slikaINaslov{
+    width: 50vw;
+    text-align: center;
+}
+#slika{
+    height: auto;
+    max-width: 50vw;
+}
+.specifikacije{
+    margin-top: 25vh;
+    width: 50vw;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+#cena{
+    text-align: center;
+    font-size: 20px;
+}
+#dugmeZaPorucivanje{
+    background-color: #3F72AF; /*izmeni*/
+    color: white; /*izmeni*/
+    border: none;
+    border-radius: 15px;
+    padding: 16px 30px;
+    font-size: 25px; /*izmeni*/
+    cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+    #dugmeZaPadajuciMeni{
+        display: block;
+        float: left;
+        padding: 10px 16px;
+        background-color: #232931;
+        color: white;
+        border: none;
+    }
+    #linkoviNaNavigationBaru {
+        overflow: hidden;
+        background-color: #232931;
+        position: relative;
+    }
+    #levaStrana {
+        float: none;
+        text-align: center;
+    }
+    #desnaStrana{
+        float: none;
+        text-align: center;
+    }
+    .pozicijaHomeDugmeta{
+        width: 76%;
+    }
+    #linkovi {
+        display: none;
+    }
+    #linkoviNaNavigationBaru a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+        display: block;
+    }
+}

@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    background-color: #DBE2EF;
+}
+.pozicijaNavigationBara{
+    position: sticky;
+    top: 0;
+}
+.navigationBar{
+    background-color: #232931;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+#dugmeZaPadajuciMeni{
+    display: none;
+}
+#linkoviNaNavigationBaru{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif, serif;
+}
+#linkoviNaNavigationBaru a{
+    /* display: block; */
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#linkoviNaNavigationBaru :hover{
+    background-color: #3F72AF;
+}
+#levaStrana{
+    float: left;
+}
+#desnaStrana{
+    float: right;
+}
+.oNama{
+    font-size: 12px;
+}
+.mreza{
+    display: flex;
+    margin-left: 4vw; /*popravi*/
+}
+.slika {
+    background-color: rgb(240, 238, 238); /*izmeni*/
+    width: 40vw;
+    margin: 10px;
+    border-radius: 25px;
+    border: 1px solid black; /*izmeni*/
+    padding: 20px;
+}
+.element {
+    background-color: rgb(240, 238, 238); /*izmeni*/
+    width: 40vw;
+    margin: 10px;
+    border-radius: 25px;
+    border: 1px solid black; /*izmeni*/
+    padding: 20px;
+}
+
+h2{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+p{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif, serif;
+    font-style: normal;
+    font-weight: 300;
+}
+#slika{
+    height: 100%;
+    width: 100%;
+}
+.tekst{
+    background-color: rgb(240, 238, 238); /*izmeni*/
+    margin: 4vw;
+    padding: 20px;
+    border-radius: 25px;
+    border: 1px solid black; /*izmeni*/
+}
+
+@media screen and (max-width: 600px) {
+    #dugmeZaPadajuciMeni{
+        display: block;
+        float: left;
+        padding: 10px 16px;
+        background-color: #232931;
+        color: white;
+        border: none;
+    }
+    #linkoviNaNavigationBaru {
+        overflow: hidden;
+        background-color: #232931;
+        position: relative;
+    }
+    #levaStrana {
+        float: none;
+        text-align: center;
+    }
+    #desnaStrana{
+        float: none;
+        text-align: center;
+    }
+    .pozicijaHomeDugmeta{
+        width: 76%;
+    }
+    #linkovi {
+        display: none;
+    }
+    #linkoviNaNavigationBaru a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+}
