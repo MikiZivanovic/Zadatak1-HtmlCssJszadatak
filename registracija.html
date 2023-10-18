@@ -31,31 +31,31 @@
     <div class="box">
         <h1 id="naslov">Registracija</h1>
         <div class="formica">
-            <form >
+            <form action = 'broker.php' method = 'post'>
                 <div class="red">
                     <div class="kolona">
                         <label for="ime">Ime:</label>
-                        <input class="pozicijaInputa" type="text" id="ime" placeholder="Vaše ime ovde" >
+                        <input class="pozicijaInputa" type="text" id="ime" placeholder="Vaše ime ovde" name = 'ime'>
                     </div>
                     <div class="kolona">
                         <label for="prezime">Prezime:</label>
-                        <input class="pozicijaInputa" type="text" id="prezime" placeholder="Vaše prezime ovde">
+                        <input class="pozicijaInputa" type="text" id="prezime" placeholder="Vaše prezime ovde" name = 'prezime'>
                     </div>
                 </div>
                 <div class="red">
                     <div class="kolona">
                         <label for="sifra">Šifra:</label>
-                        <input class="pozicijaInputa" type="password" id="sifra" placeholder="Vašu šifru ovde">
+                        <input class="pozicijaInputa" type="password" id="sifra" placeholder="Vašu šifru ovde" name = 'sifra'>
                     </div>
                     <div class="kolona">
                         <label for="resifra">Ponovite šifru:</label>
-                        <input class="pozicijaInputa" type="password" id="resifra" placeholder="Vašu re-šifru ovde">
+                        <input class="pozicijaInputa" type="password" id="resifra" placeholder="Vašu re-šifru ovde" name = 'resifra'>
                     </div>
                 </div>
                 <div class="red">
                     <div class="kolona">
                         <label for="email">E-mail:</label>
-                        <input class="pozicijaInputa" type="email" id="email" placeholder="Vaš e-mail ovde">
+                        <input class="pozicijaInputa" type="email" id="email" placeholder="Vaš e-mail ovde" name = 'email'>
                     </div>
                     <div class="kolona">
                         <label class="rd" for="ch">Pol:</label>

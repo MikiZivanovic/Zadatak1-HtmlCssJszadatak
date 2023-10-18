@@ -1,0 +1,57 @@
+[
+    {
+        "id": "4",
+        "ime": "Miki",
+        "prezime": "Zivanovic",
+        "sifra": "1",
+        "resifra": "1",
+        "email": "blabla@gmail.com",
+        "pol": "muski",
+        "drzava": "srbija",
+        "klijent": "kupacnamalo"
+    },
+    {
+        "id": "5",
+        "ime": "ivan",
+        "prezime": "Ivanovic",
+        "sifra": "11",
+        "resifra": "11",
+        "email": "ivan@gmail.com",
+        "pol": "muski",
+        "drzava": "crnagora",
+        "klijent": "fizckolice"
+    },
+    {
+        "id": "6",
+        "ime": "Jovan",
+        "prezime": "Jovanovic",
+        "sifra": "1",
+        "resifra": "1",
+        "email": "jova@gmail.com",
+        "pol": "muski",
+        "drzava": "srbija",
+        "klijent": "kupacnamalo"
+    },
+    {
+        "id": "7",
+        "ime": "Ana",
+        "prezime": "Peric",
+        "sifra": "1",
+        "resifra": "1",
+        "email": "ana@yahoo.com",
+        "pol": "zenski",
+        "drzava": "makedonija",
+        "klijent": "fizckolice"
+    },
+    {
+        "id": "8",
+        "ime": "Mina",
+        "prezime": "Zikic",
+        "sifra": "11",
+        "resifra": "11",
+        "email": "mina@yahoo.com",
+        "pol": "zenski",
+        "drzava": "srbija",
+        "klijent": "fizckolice"
+    }
+]
